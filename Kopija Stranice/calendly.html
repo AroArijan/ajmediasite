@@ -1,0 +1,100 @@
+<!DOCTYPE html>  
+<html class="background">
+    <head>
+        <title>AJ Media | Discovery Call</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Css/general.css">
+        <link rel="stylesheet" href="Css/navigation.css">
+        <link rel="stylesheet" href="Css/header.css">
+        <link rel="stylesheet" href="Css/casestudy.css">
+        <link rel="stylesheet" href="Css/calendlycss.css">
+        <link rel="stylesheet" href="Css/footer.css">
+        <link rel="stylesheet" href="Css/casewebsite.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700" media="all">
+        <script src="https://kit.fontawesome.com/32c0f3b9ec.js" crossorigin="anonymous"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="../AJ_favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../AJ_favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../AJ_favicon/favicon-16x16.png">
+        <link rel="manifest" href="../AJ_favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body class="bodyclasscalendly">
+        <div id="navigation">
+            <div class="navigation-logo">
+                <a href="website.html"><img src="../SLIKE/ajfinallogo.png"></a>
+            </div>
+            <div id="menu-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+            <div id="menu-close">
+                <span class="close">&times;</span>
+            </div>
+            <div id="navigation-list">
+                <ul>
+                    <div class="dropdown-service">
+                        <a href="website.html#case-study"><li>Case Studies <i class="fa-solid fa-caret-down"></i></li></a>
+                        <div class="dropdown-service-content">
+                                    <a href="meta.html">Meta Ads</a>
+                                    <a href="casestudies.html" target="_blank">Google Ads</a>
+                        </div>
+                        </div>
+                    <a href="website.html#services-naslov"><li>Services</li></a>
+                    <a href="website.html#team-naslov"><li>Team</li></a>
+                    <a href="website.html#footer"><li>Contact Us</li></a>
+                </ul>
+            </div>
+            <div id="navigation-buttons">
+                <div class="navigation-button">
+                    <a href="calendly.html" target="_blank">Book a Call With Us &#128073</a>
+                </div>               
+            </div>
+        </div>
+
+
+        <div id="header-studysite" style="height: 200px;">
+            <div class="landing-text">
+                <span class="ajspan">DISCOVERY CALL</span>
+                <h1>Book Your Discovery Call With Us</h1>
+            </div>
+        </div>
+        
+        <div id="calendly">
+            <div class="calendly-link">
+                <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/aj_media/aj-media-discovery-call" style="min-width:10%;height:630px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                <!-- Calendly inline widget end -->
+                <div id="calendly-copyright"><p class="copyright">&copy 2022 AJ Media. All right reserved.</p></div>
+        </div>
+        </div>
+
+                <!--JAVA-->
+                <script>
+                    var menubutton = document.getElementById("menu-button")
+                    var menuclose = document.getElementById("menu-close")
+                    var navigationlist = document.getElementById("navigation-list")
+                    var navigationbutton = document.getElementById("navigation-buttons")
+        
+                    
+                    menubutton.onclick = function(){
+                        navigationlist.style.display = "flex";
+                        navigationbutton.style.display = "flex";
+                        menubutton.style.display = "none";
+                        menuclose.style.display = "block";
+                        }
+                    menuclose.onclick = function(){
+                        navigationlist.style.display = "none";
+                        navigationbutton.style.display = "none";
+                        menubutton.style.display = "block";
+                        menuclose.style.display = "none";
+                    }
+                </script>
+    </body>
+</html>

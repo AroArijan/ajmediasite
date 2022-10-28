@@ -1,0 +1,48 @@
+/* CASE STUDY na WEBSITE */
+
+#metastudy {
+    width: 45%;
+    left: 27.5%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 70px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  /* MOBITEL*/
+  
+  @media (max-width: 768px) {
+    #metastudy {
+      width: 70%;
+      left: 15%;
+      margin-top: 25%;
+      margin-bottom: 25%;
+      grid-template-columns: 1fr;
+    }
+  }
+  /*TABLET*/
+  @media only screen and (max-width: 1242px) and (min-width: 768px) {
+    #metastudy {
+      width: 60%;
+      left: 20%;
+      margin-top: 15%;
+      margin-bottom: 25%;
+      grid-template-columns: 1fr;
+    }
+    #metastudy .case-study-website-description {
+        font-size: 24px;
+        margin-top: 0;
+    }
+  }
+  
+  /*VECI EKRANI */
+  @media screen and (max-width: 2000px) and (min-width: 1242px) {
+    #metastudy {
+      width: 60%;
+      left: 20%;
+      margin-top: 20%;
+    }
+  }

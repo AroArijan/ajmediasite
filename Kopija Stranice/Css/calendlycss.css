@@ -1,0 +1,67 @@
+/* CALENDLY LINK*/
+#calendly {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  margin-top: 0%;
+  height: 100%;
+}
+.calendly-link {
+  width: 100%;
+  position: relative;
+  top: 15%;
+}
+.calendly-inline-widget {
+  border: 1px solid black;
+}
+#calendly-page-logo {
+  display: flex;
+  width: 100%;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+}
+#calendly-page-logo img {
+  width: 250px;
+  flex-shrink: 0;
+}
+#calendly .case-study-text {
+  display: inline;
+}
+#calendly-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 5%;
+}
+#calendly hr {
+  border: 1px solid black;
+  width: 60%;
+  left: 20%;
+  position: relative;
+}
+.calendly-text {
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: black;
+}
+/* MOBITEL */
+@media (max-width: 1242px) {
+  #calendly {
+    width: 90%;
+    left: 5%;
+  }
+  .calendly-link {
+    top: 20%;
+  }
+}
+@media (max-width: 340px) {
+  #calendly {
+    width: 100%;
+    left: 0;
+  }
+}

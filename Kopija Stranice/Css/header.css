@@ -1,0 +1,306 @@
+#header {
+  width: 60%;
+  height: 640px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  left: 20%;
+  column-gap: 6rem;
+}
+/*       Landing Text */
+.landing-text h1 {
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 53px;
+  margin-top: 30px;
+}
+.landing-text p {
+  font-size: 17.5px;
+  line-height: 24px;
+  color: #000;
+  padding-top: 1.5em;
+}
+span.ajspan {
+  font-size: 24px;
+  line-height: 27px;
+  color: #ea2c40;
+  font-weight: 500;
+  display: block;
+}
+span.red {
+  color: #ea2c40;
+}
+span.bolded {
+  font-weight: 700;
+}
+/*       Landing Button  */
+.landing-button {
+  margin-top: 4rem;
+  display: flex;
+  transition: transform 0.5s;
+}
+.landing-button a {
+  background-color: #ea2c40;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  padding: 16px 25px;
+  border-radius: 19px;
+  box-shadow: 0 0 18px -0.75px rgb(234 44 64 / 40%);
+}
+.landing-button:hover{
+  transform: scale(1.02, 1.02);
+}
+
+/*     SLIKA NA LANDING PAGEU */
+.landing-images {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr);
+  column-gap: 30px;
+}
+.slikaprva {
+  height: 100%;
+}
+.slikaprva img {
+  width: 100%;
+}
+.marginadole {
+  margin-top: 40px;
+}
+
+/*    MEDIA ZA MOBITELE I TO */
+
+@media (max-width: 1242px) {
+  #header {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin-top: 10%;
+    left: 5%;
+  }
+  .landing-text h1 {
+    font-size: 36px;
+  }
+  .landing-text {
+    width: 100%;
+  }
+  .landing-text p {
+    font-size: 17px;
+  }
+  .landing-button {
+    transform: scale(0.8, 0.8);
+    margin-left: -11.5%;
+  }
+  .landing-button:hover{
+    transform: scale(0.85, 0.85);
+  }
+  .landing-images {
+    margin-top: 50px;
+    column-gap: 15px;
+    grid-template-columns: minmax(150px, 0.5fr);
+  }
+}
+@media (max-width: 768px) {
+  .landing-images {
+    grid-template-columns: minmax(150px, 1fr);
+  }
+  .landing-button:hover{
+    transform: scale(0.85, 0.85);
+  }
+}
+
+/* MEDIA ZA VECE EKRANE */
+@media screen and (max-width: 2000px) and (min-width: 1242px) {
+  #header {
+    width: 80%;
+    left: 10%;
+  }
+  .landing-button:hover{
+    transform: scale(0.85, 0.85);
+  }
+}
+
+/*STRIVE TO WORK WITH US */
+
+#strive {
+  display: grid;
+  position: relative;
+  width: 50%;
+  left: 25%;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 15%;
+}
+.strive-dio {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  height: 100%;
+}
+.strive-slika img {
+  width: 100%;
+}
+.strive-text p {
+  margin-top: 15px;
+}
+.strive-text h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+.strive-naslov {
+  margin-top: 5%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+@media (max-width: 490px) {
+  #strive {
+    grid-template-columns: 1fr;
+    width: 90%;
+    left: 5%;
+    margin-top: 150%;
+    row-gap: 70px;
+  }
+  .strive-naslov {
+    margin-top: 100%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 490px) {
+  #strive {
+    grid-template-columns: 1fr;
+    width: 90%;
+    left: 5%;
+    margin-top: 100%;
+    row-gap: 70px;
+  }
+  .strive-naslov {
+    margin-top: 70%;
+  }
+}
+@media screen and (max-width: 1242px) and (min-width: 768px) {
+  #strive {
+    width: 90%;
+    left: 5%;
+    margin-top: 60%;
+  }
+  .strive-naslov {
+    margin-top: 40%;
+  }
+}
+@media screen and (max-width: 2000px) and (min-width: 1243px) {
+  #strive {
+    width: 70%;
+    left: 15%;
+    margin-top: 10%;
+  }
+  .strive-naslov {
+    margin-top: 0;
+  }
+}
+
+/* WHAT TO EXPECT */
+
+#expect {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 17%;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+.expect-dio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.expect-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin-top: 7%;
+}
+.expect-text h1 {
+  font-size: 24px;
+  color: #222222;
+}
+.expect-text p {
+  font-size: 18px;
+  color: #454545;
+  margin-top: 5%;
+}
+.expect-naslov {
+  margin-top: 10%;
+}
+.expect-button {
+  margin-top: 4rem;
+  display: flex;
+  transition: transform 0.5s;
+}
+.expect-button a {
+  background-color: #ea2c40;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 19px;
+  box-shadow: 0 0 18px -0.75px rgb(234 44 64 / 40%);
+}
+.expect-button:hover {
+  transform: scale(1.05, 1.05);
+}
+
+/* Mobiteli */
+@media (max-width: 330px) {
+  #expect {
+    margin-top: 100%;
+    width: 90%;
+    left: 5%;
+    grid-template-columns: 1fr;
+    row-gap: 70px;
+  }
+  .expect-naslov {
+    margin-top: 70%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 330px) {
+  #expect {
+    width: 90%;
+    left: 5%;
+    grid-template-columns: 1fr;
+    margin-top: 50%;
+    row-gap: 70px;
+  }
+  .expect-naslov {
+    margin-top: 30%;
+  }
+}
+/*TABLET */
+@media screen and (max-width: 1242px) and (min-width: 768px) {
+  #expect {
+    margin-top: 30%;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    left: 15%;
+  }
+  .expect-naslov {
+    margin-top: 10%;
+  }
+}
+
+/* VECI EKRANI */
+@media screen and (max-width: 2000px) and (min-width: 1242px) {
+  #expect {
+    width: 70%;
+    left: 15%;
+  }
+  .expect-text {
+    width: 90%;
+  }
+}

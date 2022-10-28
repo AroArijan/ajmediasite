@@ -1,0 +1,610 @@
+/* SLIKE NA HEADERU*/
+.studysite-images {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr);
+}
+@media (max-width: 1242px) {
+  .studysite-images {
+    margin-top: 5%;
+    width: 60%;
+    position: relative;
+    left: 20%;
+  }
+}
+/* HEADER GOOGLE CASE STUDYA */
+#header-studysite {
+  width: 60%;
+  min-height: 350px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  left: 20%;
+  column-gap: 5rem;
+}
+.landing-button-studysite {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.5s;
+}
+.landing-button-studysite a {
+  background-color: #ea2c40;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  padding: 16px 25px;
+  border-radius: 19px;
+  box-shadow: 0 0 18px -0.75px rgb(234 44 64 / 40%);
+}
+.landing-button-studysite:hover {
+  transform: scale(1.08, 1.08);
+}
+
+@media (max-width: 1242px) {
+  #header-studysite {
+    width: 90%;
+    left: 5%;
+    margin-top: 10%;
+    height: 400px;
+  }
+}
+
+/* IMPACT */
+
+#impact {
+  width: 40%;
+  left: 30%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 7%;
+  row-gap: 100px;
+}
+.impact-naslov {
+  margin-top: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.impact-dio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.impact-dio-slika {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.impact-dio-slika-invert {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.impact-dio-text h1 {
+  font-size: 24px;
+}
+.impact-dio-text p {
+  font-size: 16px;
+  width: 80%;
+  margin-top: 2%;
+}
+.impact-dio-naslov {
+  color: #ea2c40;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 476px) {
+  #impact {
+    width: 90%;
+    left: 5%;
+    margin-top: 60%;
+  }
+  .impact-dio {
+    grid-template-columns: 1fr;
+  }
+  .impact-dio-slika,
+  .impact-dio-slika-invert {
+    display: none;
+  }
+  .impact-naslov {
+    margin-top: 15%;
+    font-size: 14px;
+  }
+  .impact-naslov p {
+    width: 80%;
+    position: relative;
+    left: 10%;
+  }
+}
+@media screen and (max-width: 968px) and (min-width: 476px) {
+  #impact {
+    width: 80%;
+    left: 10%;
+    margin-top: 22%;
+  }
+  .impact-naslov {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 1242px) and (min-width: 968px) {
+  #impact {
+    width: 80%;
+    left: 10%;
+    margin-top: 10%;
+  }
+  .impact-naslov {
+    margin-top: -5%;
+  }
+}
+@media screen and (max-width: 2000px) and (min-width: 1243px) {
+  #impact {
+    width: 60%;
+    left: 20%;
+  }
+}
+
+/* READY FOR BETTER RESULTS*/
+#better-results-section {
+  display: flex;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  height: 100%;
+  flex-direction: row;
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+.better-results-okvir {
+  width: 100%;
+  background-color: black;
+  height: 250px;
+  margin-top: 5%;
+}
+.better-results-button {
+  display: flex;
+  margin-left: 30px;
+}
+.better-results-button a {
+  background-color: #ea2c40;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  padding: 16px 25px;
+  border-radius: 19px;
+  transition: background-color 0.3s;
+}
+.better-results-button a:hover {
+  background-color: #be2d3c;
+}
+@media (max-width: 768px) {
+  #better-results-section {
+    flex-direction: column;
+    width: 90%;
+    left: 5%;
+  }
+  .better-results-okvir {
+    height: 130%;
+  }
+  .better-results-button {
+    margin: 50px 0;
+  }
+  .better-results-text {
+    margin: 30px;
+  }
+}
+@media only screen and (max-width: 1242px) and (min-width: 768px) {
+  #better-results-section {
+    width: 70%;
+    left: 15%;
+  }
+}
+@media screen and (max-width: 2000px) and (min-width: 1242px) {
+  #better-results-section {
+    width: 60%;
+    left: 20%;
+  }
+}
+
+/* EXPECT CASE STUDY SITE */
+
+#expect-casestudy {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10%;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+.expect-casestudy-naslov {
+  margin-top: 5%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+/* Mobiteli */
+@media (max-width: 360px){
+  #expect-casestudy {
+    width: 90%;
+    left: 5%;
+    grid-template-columns: 1fr;
+    margin-top: 50%;
+    row-gap: 70px;
+  }
+  .expect-casestudy-naslov {
+    font-size: 14px;
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 360px) {
+  #expect-casestudy {
+    width: 90%;
+    left: 5%;
+    grid-template-columns: 1fr;
+    margin-top: 30%;
+    row-gap: 70px;
+  }
+  .expect-casestudy-naslov {
+    font-size: 14px;
+    margin-top: 10%;
+  }
+}
+
+/*TABLET */
+@media screen and (max-width: 1242px) and (min-width: 768px) {
+  #expect-casestudy {
+    margin-top: 20%;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    left: 15%;
+  }
+}
+
+/* VECI EKRANI */
+@media screen and (max-width: 2000px) and (min-width: 1242px) {
+  #expect-casestudy {
+    width: 70%;
+    left: 15%;
+  }
+}
+
+/* CASE STUDY na WEBSITE */
+
+#case-study-website {
+  width: 45%;
+  left: 27.5%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 70px;
+  margin-top: 10%;
+  margin-bottom: 15%;
+}
+.case-okvir {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 25px;
+  box-shadow: 0 0 18px -0.75px rgb(234 44 64 / 40%);
+  margin-top: 10%;
+}
+.case-study-image-website img {
+  width: 94%;
+  margin: 3% 3%;
+  border-radius: 10%;
+  object-fit: cover;
+  border: 1px solid black;
+}
+.googlestudy {
+  grid-column: 1 / span 2;
+  margin-top: 5%;
+}
+.googlestudy img {
+  border-radius: 5%;
+}
+.googlestudy .case-study-website-description {
+  margin-top: 0;
+}
+.case-study-website-description {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  margin-top: 5%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+  color: black;
+}
+.case-study-website-description hr {
+  background: black;
+  height: 2px;
+  border: 0;
+}
+.case-study-website-text hr {
+  border: 1px solid black;
+  width: 40%;
+  left: 30%;
+  position: relative;
+}
+.case-study-website-text {
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: #161f2b;
+}
+.case-study-website-text p {
+  font-size: 22px;
+  color: #5a6370;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.studysite-googlestudy-naslov {
+  margin-top: 5%;
+}
+
+/* MOBITEL*/
+
+@media (max-width: 768px) {
+  #case-study-website {
+    width: 96%;
+    left: 2%;
+    right: 0;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    grid-template-columns: 1fr;
+  }
+  .case-study-image-website {
+    min-width: 100%;
+  }
+  .case-study-website-text {
+    font-size: 18px;
+    top: 4%;
+  }
+  .googlestudy {
+    grid-column: 1 / span 1;
+    margin-top: 20%;
+  }
+  .googlestudy h3 {
+    color: black;
+  }
+  .googlestudy hr {
+    background-color: black;
+  }
+  .case-study-website-description {
+    font-size: 18px;
+    width: 100%;
+  }
+  .case-study-image-website:hover .case-study-description {
+    bottom: 15%;
+  }
+  .buttons-casestudy {
+    flex-direction: column;
+  }
+  .go-back-button-casestudy {
+    margin-bottom: 30px;
+  }
+  .case-okvir {
+    margin-top: 15%;
+  }
+  .studysite-googlestudy-naslov {
+    margin-top: 15%;
+  }
+}
+/*TABLET*/
+@media only screen and (max-width: 1242px) and (min-width: 768px) {
+  #case-study-website {
+    width: 96%;
+    left: 2%;
+    right: 0;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    grid-template-columns: 1fr;
+  }
+  .case-study-image-website {
+    min-width: 100%;
+  }
+  .case-study-website-text {
+    font-size: 30px;
+    top: 4%;
+  }
+  .googlestudy {
+    grid-column: 1 / span 1;
+    margin-top: 20%;
+  }
+  .googlestudy h3 {
+    color: black;
+  }
+  .googlestudy hr {
+    background-color: black;
+  }
+  .case-study-website-description {
+    font-size: 18px;
+    width: 100%;
+  }
+  .case-study-image-website:hover .case-study-description {
+    bottom: 15%;
+  }
+  .buttons-casestudy {
+    flex-direction: column;
+  }
+  .go-back-button-casestudy {
+    margin-bottom: 30px;
+  }
+  .case-okvir {
+    margin-top: 15%;
+  }
+  .studysite-googlestudy-naslov {
+    margin-top: 10%;
+  }
+}
+
+/*VECI EKRANI */
+@media screen and (max-width: 2000px) and (min-width: 1242px) {
+  #case-study-website {
+    width: 60%;
+    left: 20%;
+    margin-top: 20%;
+  }
+  .case-study-website-description {
+    font-size: 18px;
+  }
+  .case-study-website-text {
+    top: 5%;
+  }
+  .studysite-googlestudy-naslov {
+    margin-top: 10%;
+  }
+}
+
+/* ONBOARDING */
+#onboard {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15%;
+}
+.onboard-slika img {
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+.onboard-text-section {
+  height: 100%;
+  transition: box-shaodw 0.3s;
+}
+.onboard-text-section:hover {
+  box-shadow: 0 0 18px -0.75px #777;
+}
+.onboard-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+}
+.onboard-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  width: 80%;
+  left: 10%;
+  position: relative;
+}
+.onboard-text p {
+  font-size: 18px;
+  font-weight: 500;
+  width: 80%;
+  left: 10%;
+  position: relative;
+}
+span.onboard-bold {
+  font-weight: 700;
+}
+.onboard-naslov {
+  text-align: center;
+  margin-bottom: 5%;
+  font-size: 24px;
+}
+
+/* MOBITEL */
+@media (max-width: 1242px) {
+  #onboard {
+    width: 90%;
+    left: 5%;
+  }
+  .onboard-text {
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+  }
+  .onboard-text-section {
+    box-shadow: 0 0 18px -0.75px #777;
+    padding: 25px 0;
+  }
+}
+@media screen and (max-width: 2000px) and (min-width: 1242px) {
+  #onboard {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+/* BOOK A CALL */
+
+#call-booking {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: flex-start;
+  margin-bottom: 10%;
+}
+.call-booking-calendly-link {
+  width: 100%;
+}
+.noborder {
+  border: none;
+  background-color: #fff;
+}
+.call-booking-text {
+  width: 80%;
+  margin: 0 auto;
+}
+.call-booking-text h1 {
+  font-size: 38px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.call-booking-text p {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+.call-booking-text ol {
+  margin-left: 5%;
+}
+.call-booking-text ol li {
+  margin: 15px 0;
+}
+.bold500 {
+  font-weight: 500;
+}
+@media (max-width: 1242px) {
+  #call-booking {
+    width: 95%;
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+  }
+  .call-booking-text {
+    margin-top: 15%;
+  }
+  .call-booking-text h1 {
+    font-size: 30px;
+  }
+  .call-booking-text p {
+    font-size: 18px;
+  }
+  .call-booking-calendly-link {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

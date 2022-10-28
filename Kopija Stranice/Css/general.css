@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+@font-face {
+  font-family: PoppinsSemi;
+  src: url("../Poppins_font/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: Raleway;
+  src: url("../Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: RalewayBold;
+  src: url("../Raleway/static/Raleway-Bold.ttf");
+}
+body {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.bodyclasscalendly {
+  height: 100%;
+}
+.background {
+  height: 100%;
+}
